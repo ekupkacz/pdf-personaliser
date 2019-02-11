@@ -1,6 +1,6 @@
 {
-    "name": "ekupka/pdf-personaliser",
-    "description": "My first package",
+    "name": "ekupkacz/pdf-personaliser",
+    "description": "Package to be used for PDF data personalisation",
     "keywords": ["pdf", "personalisation", "utility"],
     "license": "proprietary",
     "authors": [
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ekupka\\PdfPersonaliser\\": "src/"
+            "Ekupkacz\\PdfPersonaliser\\": "src/"
         }
     }
 }
