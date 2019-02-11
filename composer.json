@@ -1,0 +1,24 @@
+{
+    "name": "ekupka/pdf-personaliser",
+    "description": "My first package",
+    "keywords": ["pdf", "personalisation", "utility"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Lukas Kupka",
+            "email": "development@ekupka.cz"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ekupka\\PdfPersonaliser\\": "src/"
+        }
+    }
+}
